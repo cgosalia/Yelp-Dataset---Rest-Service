@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rss="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml">
+  <foaf:Agent rdf:nodeID="id2244783">
+    <foaf:name>Jon Foobar</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:weblog>
+      <foaf:Document rdf:about="http://foobar.xx/blog/">
+        <dc:title>Visions of Aestia by John Barstow</dc:title>
+        <rdfs:seeAlso>
+          <rss:channel rdf:about="http://www.nzlinux.org.nz/blogs/wp-rdf.php?cat=9">
+            <foaf:maker rdf:nodeID="id2244783"/>
+            <foaf:topic rdf:resource="http://www.w3.org/2001/sw/"/>
+            <foaf:topic rdf:resource="http://www.w3.org/RDF/"/>
+          </rss:channel>
+        </rdfs:seeAlso>
+      </foaf:Document>
+    </foaf:weblog>
+    <foaf:interest rdf:resource="http://www.w3.org/2001/sw/"/>
+    <foaf:interest rdf:resource="http://www.w3.org/RDF/"/>
+  </foaf:Agent>
+  <foaf:Agent rdf:nodeID="id2244811">
+    <foaf:name>Danny Ayers</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:weblog>
+      <foaf:Document rdf:about="http://dannyayers.com/">
+        <dc:title>Raw Blog by Danny Ayers</dc:title>
+        <rdfs:seeAlso>
+          <rss:channel rdf:about="http://dannyayers.com/feed/rdf">
+            <foaf:maker rdf:nodeID="id2244811"/>
+            <foaf:topic rdf:resource="http://www.w3.org/2001/sw/"/>
+            <foaf:topic rdf:resource="http://www.w3.org/RDF/"/>
+          </rss:channel>
+        </rdfs:seeAlso>
+      </foaf:Document>
+    </foaf:weblog>
+    <foaf:interest rdf:resource="http://www.w3.org/2001/sw/"/>
+    <foaf:interest rdf:resource="http://www.w3.org/RDF/"/>
+  </foaf:Agent>
+  <foaf:Agent rdf:nodeID="id2244837">
+    <foaf:name>Dave Beckett</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:weblog>
+      <foaf:Document rdf:about="http://journal.dajobe.org/journal/">
+        <dc:title>Journalblog by Dave Beckett</dc:title>
+        <rdfs:seeAlso>
+          <rss:channel rdf:about="http://journal.dajobe.org/journal/comments.rdf">
+            <foaf:maker rdf:nodeID="id2244837"/>
+            <foaf:topic rdf:resource="http://www.w3.org/2001/sw/"/>
+            <foaf:topic rdf:resource="http://www.w3.org/RDF/"/>
+          </rss:channel>
+        </rdfs:seeAlso>
+      </foaf:Document>
+    </foaf:weblog>
+    <foaf:interest rdf:resource="http://www.w3.org/2001/sw/"/>
+    <foaf:interest rdf:resource="http://www.w3.org/RDF/"/>
+  </foaf:Agent>
+</rdf:RDF>
