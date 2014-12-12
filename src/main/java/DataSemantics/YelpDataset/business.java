@@ -1,17 +1,38 @@
 package DataSemantics.YelpDataset;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.JSONObject;
+
+//import org.json.JSONObject;
+
+//import java.util.List;
+
 public class business{
+	public void setAttibute_categories(JSONObject attibute_categories) {
+		this.attibute_categories = attibute_categories;
+	}
+	public JSONObject getAttibute_categories() {
+		return attibute_categories;
+	}
 	//?stars ?g ?id ?type ?name ?review_count ?city ?address ?longitude 
 	//?latitude ?monday ?tuesday ?wednesday ?thursday ?friday ?saturday ?sunday
 	private String stars;
-	private String categories;
+	private ArrayList<String> categories = new ArrayList<String>();
+	public void setCategories(ArrayList<String> categories) {
+		this.categories = categories;
+	}
 	private String id;
+	public ArrayList<String> getCategories() {
+		return categories;
+	}
 	private String name;
 	private String review_count;
 	private String city;
 	private String address;
-	private String longitude;
-	private String latitude;
+	private String langlat;
+//	private String latitude;
 	private String monday;
 	private String tuesday;
 	private String wednesday; 
@@ -19,45 +40,23 @@ public class business{
 	private String friday;
 	private String saturday; 
 	private String sunday;
+	private String attributes;
 	
 	
+	private JSONObject attibute_categories;
+
 	
-	
-	
-	public business(String stars, String categories, String id, String name, String review_count, String city,
-			String address, String longitude, String latitude, String monday, String tuesday, String wednesday,
-			String thursday, String friday, String saturday, String sunday) 
-	{
-		super();
-		this.stars = stars;
-		this.categories = categories;
-		this.id = id;
-		this.name = name;
-		this.review_count = review_count;
-		this.city = city;
-		this.address = address;
-		this.longitude = longitude;
-		this.latitude = latitude;
-		this.monday = monday;
-		this.tuesday = tuesday;
-		this.wednesday = wednesday;
-		this.thursday = thursday;
-		this.friday = friday;
-		this.saturday = saturday;
-		this.sunday = sunday;
+	public void setAttributes(String attributes) {
+		this.attributes = attributes;
 	}
-	
+	public String getAttributes() {
+		return attributes;
+	}
 	public String getStars() {
 		return stars;
 	}
 	public void setStars(String stars) {
 		this.stars = stars;
-	}
-	public String getCategories() {
-		return categories;
-	}
-	public void setCategories(String categories) {
-		this.categories = categories;
 	}
 	public String getId() {
 		return id;
@@ -89,17 +88,11 @@ public class business{
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public String getLongitude() {
-		return longitude;
+	public String getLanglat() {
+		return langlat;
 	}
-	public void setLongitude(String longitude) {
-		this.longitude = longitude;
-	}
-	public String getLatitude() {
-		return latitude;
-	}
-	public void setLatitude(String latitude) {
-		this.latitude = latitude;
+	public void setLanglat(String langlat) {
+		this.langlat = langlat;
 	}
 	public String getMonday() {
 		return monday;

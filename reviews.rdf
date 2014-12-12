@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:user="http://indiana.edu/svellank/users/"
+    xmlns:business="http://indiana.edu/svellank#"
+    xmlns:review="http://indiana.edu/svellank/reviews/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://indiana.edu/svellank#lHVuz_K9Sf2w0o0q44m1WQ">
+  <review:votes rdf:parseType="Resource">
+      <review:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >5</review:cool>
+      <review:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >8</review:useful>
+      <review:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >4</review:funny>
+    </review:votes>
+    <review:stars>4</review:stars>
+    <review:review_text>When I lived in a flat off Gilmore Place the Bombay Bicycle Club was my go-to Indian takeaway. So popular was it with my flatmates and I that for a while I would receive text messages on the way home that only read, 'BOMBAY?'. Weirdly the delivery man would always arrive to the door in a full suit which made us feel especially guilty for slobbing out with a takeaway in our pj's. No matter what time of day we ordered it always took them at least 40 minutes to arrive although it was always worth it. Byriani, Sagg and Red Fort were our standard orders although the Dupiaza was also pretty good. Three curries between four was easily enough in fact, by the time we got through the bread and rice we often had too much.
+
+Even though the restaurant has had a recent revamp I would still find it a bit odd to eat IN here. The seats all seem to be pressed against the windows and I'd feel as though the whole street was watching me. I've heard good things about the service but if I was going OUT for curry I'd probably wander down the road to Gandhi's instead. Great for delivery but awkward to sit in!</review:review_text>
+    <review:review_date>lHVuz_K9Sf2w0o0q44m1WQ</review:review_date>
+    <user:user_id>as22TLsZn_SwVv4oCjxdMg</user:user_id>
+    <review:review_id>lHVuz_K9Sf2w0o0q44m1WQ</review:review_id>
+    <business:id>N9p41uAx9P7Hm2xQJ14j1g</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#_vPuIFbu4U0pMn02vKAkew">
+    <review:stars>2</review:stars>
+    <review:review_text>INCA!? 
+
+SO SOUTH AMERICAN FOOD? 
+
+...Wait, Italian? 
+
+The food is as confused as the owners. My Pizza Cardinale didn't know wither to be disgusting or burnt. But I'm going to give them the benefit of the doubt, because my girlfriends meal looked alot better. 
+
+The meal took forever to come and the waitress was a little short with us. The toilets were foul, bleach is cheap guys, come on!! 
+
+Gloriously underwhelming</review:review_text>
+    <review:review_date>_vPuIFbu4U0pMn02vKAkew</review:review_date>
+    <user:user_id>5zbaSr7qSPwb0E_Bzy64rw</user:user_id>
+    <review:review_id>_vPuIFbu4U0pMn02vKAkew</review:review_id>
+    <business:id>yQ2KpCC42nVjdddGyGgOuw</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#Gy2sV043SY8SXBapTydPdg">
+    <review:stars>4</review:stars>
+    <review:review_text>I'm going to be honest, the tour was good, the tour guide was funny and a joy to listen to. We started our day for a coffee stop, the Trossachs Woolen Mills (you can see my review on that), then it was off to the Glen Coe Pass, a beautiful expanse of the highlands, with a bloody history. We stopped for lunch in Onich at the Onich Hotel (also reviewed) then off to Fort Augstus for a cruise on the Loch Ness (reviewed). And once those were out of the way, we stopped shortly to look and photograph the massive Ben Nevis. The only problem I felt is that we were rushed, especially toward the end of the tour when we were supposed to have the option to have dinner in the town of Pitlochry, and instead we only had 30 minutes. The day tour was supposed to last from 8am - 8pm, and we arrived back in Edinburgh at 7.15pm. I don't know if the guide had something better to do that evening, but as soon as we were out of the van he was outta there like he was on fire. 
+
+I would do another tour with this company to compare them, and I would make sure to maybe pick it out with more time in the places we stop at.</review:review_text>
+    <review:review_date>Gy2sV043SY8SXBapTydPdg</review:review_date>
+    <user:user_id>czsmQRXhXy-S40cKpEk0Lg</user:user_id>
+    <review:review_id>Gy2sV043SY8SXBapTydPdg</review:review_id>
+    <business:id>R8e0UBvu-SBoJZ6qCjUV4A</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#L35HvsLPfvWl74Vh9vDZQg">
+    <review:stars>4</review:stars>
+    <review:review_text>This place seems to me to be Stockbridge's answer to Marchmont's Peter Green's. I say this because I saw pretty much exactly the same stock in here as in Peter Green's. Except that Peter Green's is larger and the men are more charming. No offense meant. 
+
+Prices are also about the same as Peter Green's. They have a healthy (and by healthy I mean unhealthy) selection of ales and wines. Which is pretty much the only reason I'd go in there. Ales. And wines. Especially ales. 
+
+It's a very cozy little shop, with everything beautifully displayed. Very organized. Possibly even a bit too organized for my taste. Though I'm already getting over it. And the staff are always willing to help (I seem to think most staff are willing to help, but maybe I just know how to approach them). 
+
+Definitely get yourself to this shop if you're in the area and treat yourself to some boozy goodies.</review:review_text>
+    <review:review_date>L35HvsLPfvWl74Vh9vDZQg</review:review_date>
+    <user:user_id>lhMo-dGq0V2iKqBIiwUJSg</user:user_id>
+    <review:review_id>L35HvsLPfvWl74Vh9vDZQg</review:review_id>
+    <business:id>4kv2dXZiuL_aEY1hQZG2YA</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#2L2lN-n9KUkiiIPsyYI8WQ">
+    <review:stars>4</review:stars>
+    <review:review_text>I seem to spend my life on the hunt for nice deli's and am usually disappointed by what I find in most of them, very often these places seem to be all style and no substance; reformed ham on a mass produced, nasty, white baguette? No thank you. Scott's, however, is quite a nice wee place on the border of Tollcross and Bruntsfield, although I wouldn't go so far as to say that it's the best deli in town, it does manage to live up to some of my gastro-expectations. It ticks all the boxes in terms of a good selection of cheese, meat, salad-y bits (olives, roast peppers, artichoke hearts etc) and they will gladly make you up a sandwich or salad for a reasonable price. There are a few seats too, if you fancy enjoying something to eat there like the pizza, Stromboli, tortillas and really good quiches (probably best not to sample them all at once...). They are one of the few places to still do hot chocolate with cream, marshmallows and maltesers (aka the holy trinity of hot chocolate toppings). Yum.</review:review_text>
+    <review:review_date>2L2lN-n9KUkiiIPsyYI8WQ</review:review_date>
+    <user:user_id>-ZOyUKJ8d30debwzj1FN7g</user:user_id>
+    <review:review_id>2L2lN-n9KUkiiIPsyYI8WQ</review:review_id>
+    <business:id>pmiXH6Mrh9NNuHe2PznNVg</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#dnCqXvdWhaOZNa0gz_Vlrg">
+    <review:stars>5</review:stars>
+    <review:review_text>along with the cameo cinema up the road (not to be confused with the fun cameo bar in leith), filmhouse shows arthouse/foreign/independent/old/non-shitty films. 
+
+its cheap, and on fridays its cheaper. they often have the director or someone from the film come and speak at premieres, often have fun themed mini film festivals based on genre or geogprahic location and sadly often have those small screens and uncomfy seats. 
+
+also a great cafe and restaurant for before/after film needs. seems to be a hang out for filmy artsy types and hip elderly.
+
+its worth it.  
+
+http://www.filmhousecinema.com/</review:review_text>
+    <review:review_date>dnCqXvdWhaOZNa0gz_Vlrg</review:review_date>
+    <user:user_id>VJIwFsZ7-udXymDm2inE0Q</user:user_id>
+    <review:review_id>dnCqXvdWhaOZNa0gz_Vlrg</review:review_id>
+    <business:id>w4zPPr-MOkqNq4zC11o8FA</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#kPA3gyVz71e1yMtuAplHPg">
+    <review:stars>4</review:stars>
+    <review:review_text>This is a little art and craft shop tucked away from the usual Stockbridge strip and it's well worth the extra trek to find it.
+
+They're more an arts and craft studio than a gift shop and judging by what they sell it's the perfect place to bring your kids to for an hour or two.
+
+Paper mache, paint glitter and sparkly things are the order of the day and I can see how kids go mad for this stuff. It's certainly brought out the kid in me.
+
+I saw that they had some interesting classes coming up, badge making, card making and the like so it's worth checking out what's coming up when you're there.
+
+They also host birthday parties and I could see 10 kids sitting around the large table getting their art on. All in all a great place for adults and kids alike!</review:review_text>
+    <review:review_date>kPA3gyVz71e1yMtuAplHPg</review:review_date>
+    <user:user_id>g5wFDgLVe2gY3n7ZCuGwyQ</user:user_id>
+    <review:review_id>kPA3gyVz71e1yMtuAplHPg</review:review_id>
+    <business:id>h6VpTHAefl61YR7li4lp_g</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#AN1PQIUX0OB7GBAnnaq1Jg">
+    <review:stars>4</review:stars>
+    <review:review_text>I'm not a whisky fan which always shocks my non-Scottish friends as they just assume that being a whisky lover is an inbuilt instinct for anyone Scottish. I'm letting the side down a little bit but I do know plenty of people who like whisky so the Whisky Shop is the perfect place to head to for stocking fillers at Christmas or Birthday presents for my whisky loving friends. The Whisky Shop is also excellent for tourists who can take back some Whisky souvenirs for the real Scottish experience.
+
+If you're not sure of all the different kinds of whisky then the staff are very knowledgeable and will be able to help you out and point you in the right direction.</review:review_text>
+    <review:review_date>AN1PQIUX0OB7GBAnnaq1Jg</review:review_date>
+    <user:user_id>tdOZQpPQyhjHIL4MnrIKHQ</user:user_id>
+    <review:review_id>AN1PQIUX0OB7GBAnnaq1Jg</review:review_id>
+    <business:id>5Yunhtd8jbk0PHA2A6czRg</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#KJZS7Y8yh-OsfvFAj_cIFg">
+    <review:stars>4</review:stars>
+    <review:review_text>Lulu's reminds me of the type of club you see on shows like The Hills with its stylish interior and fine drinks. The decor is so swish and fancy that you almost feel like its wasted on the hoards of drunk students, but luckily it doesn't ever feel like its full of students. The clientele are always finely dressed and it has a real upmarket feel to it. 
+
+My sole attraction to Lulu's was the light up dance floor. It was a novelty that kept us entertained for an hour or two and is quite a fun gimmick. Plus on student nights the drinks are reasonable priced and it doesn't get too crowded like normal student bars. They do a good cocktail range and the bar staff are trained well. Even though its popular with students you do get the young professional George Street types who are oh so smartly dressed and sophisticated looking. Each night is different so its worth checking the website to see which one tickles your fancy and perhaps get yourself on the guest list.
+
+I think Lulu's is one of the better, nicer clubs in George Street as it just reeks of fabulosity.</review:review_text>
+    <review:review_date>KJZS7Y8yh-OsfvFAj_cIFg</review:review_date>
+    <user:user_id>Wuo1WKSgEt42fY7NxXcJYw</user:user_id>
+    <review:review_id>KJZS7Y8yh-OsfvFAj_cIFg</review:review_id>
+    <business:id>1icf6RttEzz1BMlgAHmJVQ</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#BsxQ1tfCLfTHoSSxpZ_Quw">
+    <review:stars>4</review:stars>
+    <review:review_text>The Chinese Manor House is the best Chinese food I have had in Edinburgh, rich flavours and no generic sweet sauces, good quality meat and seafood and generally just really tasty dishes. From that opening one would assume an instant five stars, and if reviews were just based on the food that would be the case...
+
+The thing is while the food is great the restaurant is simply too far out of town most of the time, and some of the joys of the food (a lot of dishes are served still sizzling) is lost in a takeaway. Location lets the Chinese Manor House down (for most of us), though if you are local to the area I would strongly recommend it. For me though it is a worthwhile but occasional treat.</review:review_text>
+    <review:review_date>BsxQ1tfCLfTHoSSxpZ_Quw</review:review_date>
+    <user:user_id>8GPJ4VUxbKMhrT3V3Ql8CQ</user:user_id>
+    <review:review_id>BsxQ1tfCLfTHoSSxpZ_Quw</review:review_id>
+    <business:id>6Z-gTRMXUVHDK7KHbT-qnQ</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#DTp7lum0HIm4u1yC8Y0K1A">
+    <review:stars>4</review:stars>
+    <review:review_text>This is a pretty cool pizza joint with a good selection of pizzas and a wide range of toppings. I have a close friend who lives 5 minutes down the road from here so quite often popped in just before or after seeing them.
+The pizzas here are not quite to the quality of Domino's or Pizza Hut but a lot closer to that quality than they are from your standard greasy pizza place, but at really great prices.
+They do some pretty good student deals here, if I was getting a pizza on my own I opted for a large twelve inch pizza with four toppings which was £6, or if I was sharing I got an eighteen inch pizza with four toppings which is very reasonably prices at £10.50- just over a fiver each, which offers good value for money.</review:review_text>
+    <review:review_date>DTp7lum0HIm4u1yC8Y0K1A</review:review_date>
+    <user:user_id>ZpjNRDv7r3vlrz5p4pTJ3w</user:user_id>
+    <review:review_id>DTp7lum0HIm4u1yC8Y0K1A</review:review_id>
+    <business:id>GNdHiQecnQjzVXIbHqncZA</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#oiO6ISC0WO-8rscx5vzjlA">
+    <review:stars>4</review:stars>
+    <review:review_text>This is a lovely little card shop if you are looking for something a little bit special rather than the cheap sort you can pick up from a Poundstretcher or a supermarket.
+
+The cards from here aren't cheap so you aren't likely to buy a card here for someone you rarely speak to but feel you must get a card for, but for those who you want to give a special card this is the place to come.  Those willing to spend that little bit more will find a slightly more personal selection of cards here so you won't need to buy everyone that funny card they've already seen about fifty times.</review:review_text>
+    <review:review_date>oiO6ISC0WO-8rscx5vzjlA</review:review_date>
+    <user:user_id>d--blIwz8HW_srunlGbufA</user:user_id>
+    <review:review_id>oiO6ISC0WO-8rscx5vzjlA</review:review_id>
+    <business:id>Clvfbj63rrZ0vFL3GClYpA</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#fNkR3KM8VlsNTRFaISq3SQ">
+    <review:stars>5</review:stars>
+    <review:review_text>The Pentlands are one of the reasons I really love living in Edinburgh.  When you're in the city, the sight of them on the South Edinburgh horizon is a pleasant reassurance that you're not trapped in an endless urban jungle, while if you feel like escaping the town you can jump on a bus and be in the hills within twenty minutes.
+
+You could walk for days in the park, as it goes on for miles, although just an afternoon is usually enough time to enjoy some fresh air and panoramic views of Edinburgh.  The landscape is fairly varied, from open hilltops to forests and streams, and obviously constantly changes with the seasons - I love going in winter when everything is covered in snow.  It's easy to find your way around as well and although I think there are probably official walks that you can look up, there are plenty of paths everywhere: I have a terrible sense of direction and have never got lost!
+
+Be warned however that part of the park is an official military training zone.  You can usually still walk there, so it doesn't cause any particular problems, but all the aggressive warning signs slightly destroy the ambience of being in the tranquil wilderness!</review:review_text>
+    <review:review_date>fNkR3KM8VlsNTRFaISq3SQ</review:review_date>
+    <user:user_id>_04QxdV4WdM5bx0-pSyglw</user:user_id>
+    <review:review_id>fNkR3KM8VlsNTRFaISq3SQ</review:review_id>
+    <business:id>Sn2g9lqJI5hFBvBUif-eCA</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#GP0fLME2k7zF1I5gjVW4CQ">
+    <review:stars>3</review:stars>
+    <review:review_text>I've lived on Holyrood Road for over 2 years now, and it still never seems to get any better of livelier. At one point, we had a small (but successful) supermarket but was, sadly, short-lived. Yeah there are two nice sandwich shops and a nice coffee shop. But that's it. That's where the liveliness ends. It drives me crazy that I have to get in the car for a pint of milk, and the nearest supermarket is about 10mins away by car. The area has so much potential and it drives me crazy to think that it's just sitting there doing nothing! Whenever I see a tourist here I lingure a bit to see if they need directions - they must be lost. 
+It is next door to the Parliament, the Palace, Dynamic Earth and has great views of the Craggs and Arthurs Seat....yet it has nothing special about it. I wish it had a bit more life! It's a famous road so it should have something more to offer than a couple coffee shops and a seedy housing estate!</review:review_text>
+    <review:review_date>GP0fLME2k7zF1I5gjVW4CQ</review:review_date>
+    <user:user_id>2pxcprc3GGAeI_RM88-Cgw</user:user_id>
+    <review:review_id>GP0fLME2k7zF1I5gjVW4CQ</review:review_id>
+    <business:id>yzBoMPmk52moRdvPJsuzCw</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#SUBJg8DQQYMFxoKQUhHIEA">
+    <review:stars>3</review:stars>
+    <review:review_text>This is a good alternative to the fast food/snack joints in the station if you have more time - the upstairs has a bistro with a somewhat random range of food from traditional Scottish options to burgers to tiger prawn linguine (which actually did contain a decent amount of prawns). It's all a little bit on the expensive side (seriously, when did it become ok to charge over £10 for a burger? Especially a pretty average burger like this one) - I'd probably be more inclined to go back if everything was £2 cheaper.</review:review_text>
+    <review:review_date>SUBJg8DQQYMFxoKQUhHIEA</review:review_date>
+    <user:user_id>B0h78A1dkJL9BtXulclAIA</user:user_id>
+    <review:review_id>SUBJg8DQQYMFxoKQUhHIEA</review:review_id>
+    <business:id>aFVO6hoFlOCN8pKsmJbWjw</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank#D9U4KKBySczTMybJfilPjg">
+    <review:stars>3</review:stars>
+    <review:review_text>Wraps seem to be the new sandwich amongst the many deli's scattered around Edinburgh, and in this respect, Salt 'n' Pepper successfully propagate this new trend.
+
+They do a subtly spicy chicken tikka wrap that left me tempted to order an other, alongside a number of other tasty fillings.
+
+Prices are average and service was rapid, a fair choice if your milling around George IV bridge.</review:review_text>
+    <review:review_date>D9U4KKBySczTMybJfilPjg</review:review_date>
+    <user:user_id>Eshh2wcI4SHdj9UJ024xyg</user:user_id>
+    <review:review_id>D9U4KKBySczTMybJfilPjg</review:review_id>
+    <business:id>2sQnp6jfOVrhn6CxraltZg</business:id>
+    <review:type>review</review:type>
+  </rdf:Description>
+</rdf:RDF>

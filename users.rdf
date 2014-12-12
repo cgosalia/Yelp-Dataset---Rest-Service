@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:Compliments="http://indiana.edu/svellank/Users/Compliments#"
+    xmlns:Votes="http://indiana.edu/svellank/Users/Votes#"
+    xmlns:User="http://indiana.edu/svellank/Users#">
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#as22TLsZn_SwVv4oCjxdMg">
+    <User:user_id>as22TLsZn_SwVv4oCjxdMg</User:user_id>
+    <User:yelping_since>2013-11</User:yelping_since>
+    <User:compliments>{"plain":1}</User:compliments>
+    <User:friends>["e-G2NEjH2PCIl_Z6jbXIrA","4dJLZvpYRcjQ6qDR5i7WsA"]</User:friends>
+    <User:average_stars>as22TLsZn_SwVv4oCjxdMg</User:average_stars>
+    <User:review_count>as22TLsZn_SwVv4oCjxdMg</User:review_count>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >2</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:funny>
+    </User:votes>
+    <User:fans>as22TLsZn_SwVv4oCjxdMg</User:fans>
+    <User:name>Clarinda</User:name>
+    <User:type>user</User:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#e-G2NEjH2PCIl_Z6jbXIrA">
+    <User:type>user</User:type>
+    <User:fans>e-G2NEjH2PCIl_Z6jbXIrA</User:fans>
+    <User:yelping_since>2008-10</User:yelping_since>
+    <User:friends>[]</User:friends>
+    <User:review_count>e-G2NEjH2PCIl_Z6jbXIrA</User:review_count>
+    <User:compliments>{}</User:compliments>
+    <User:average_stars>e-G2NEjH2PCIl_Z6jbXIrA</User:average_stars>
+    <User:user_id>e-G2NEjH2PCIl_Z6jbXIrA</User:user_id>
+    <User:name>Gary</User:name>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >21</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >70</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >16</Votes:funny>
+    </User:votes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#4dJLZvpYRcjQ6qDR5i7WsA">
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >1</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >6</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >2</Votes:funny>
+    </User:votes>
+    <User:average_stars>4dJLZvpYRcjQ6qDR5i7WsA</User:average_stars>
+    <User:compliments>{}</User:compliments>
+    <User:user_id>4dJLZvpYRcjQ6qDR5i7WsA</User:user_id>
+    <User:review_count>4dJLZvpYRcjQ6qDR5i7WsA</User:review_count>
+    <User:type>user</User:type>
+    <User:fans>4dJLZvpYRcjQ6qDR5i7WsA</User:fans>
+    <User:friends>[]</User:friends>
+    <User:yelping_since>2011-08</User:yelping_since>
+    <User:name>Tyler</User:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#BwvlE7SguUtXP-InnJbjSw">
+    <User:average_stars>BwvlE7SguUtXP-InnJbjSw</User:average_stars>
+    <User:name>Azariah</User:name>
+    <User:friends>["EVWnjbS4hVbspI0M4YH4Pw","acuoEIpGPqKWvvFxWtDRVg","8LYEPulG-ltZro0oEBREdw","lh6VX3J1FCefn4yDJuydqg","FOfUxCjxD5xpKM_7mphLJg","N7DxZbMcCPOFSD9ISUzQJw","qjDy5Kq_zN4bcxVIxt7BCA","4wpYB6Qd5YidLC_X0jYB9w","bhSlsx898TzpPCKBrgt9eQ","Chsa9RusRaejI48p6eySCQ","JFAdTlFkurs2xxBtG8xXYQ","xNjpfbbbhq4F2JREBdAxLg","xGuh7FY51oUI_2OgqYo4PQ","myrbuS74K2zktXl94HrPFA","7MpbkRJ7pCQ0H-eS67BLfA","Hh1NevgEpmuFhLBvwAHaDQ","YZbWdDC_whmqwZCooBB6WQ","YLva2jlLqv_w0hiKuX_euA","zFfhFH_DAuTPWNNR11EBkQ","DxkZlGlTv4EcXdPPLNbW4g","jQ4qgVt6-SRlmlXKyVpC6A"]</User:friends>
+    <User:yelping_since>2010-04</User:yelping_since>
+    <User:user_id>BwvlE7SguUtXP-InnJbjSw</User:user_id>
+    <User:compliments>{"cool":3,"more":2,"funny":2,"hot":4,"writer":1,"note":1,"profile":1}</User:compliments>
+    <User:fans>BwvlE7SguUtXP-InnJbjSw</User:fans>
+    <User:review_count>BwvlE7SguUtXP-InnJbjSw</User:review_count>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >18</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >28</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >23</Votes:funny>
+    </User:votes>
+    <User:type>user</User:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#0vscrHoajVRa1Yk19XWdwA">
+    <User:average_stars>0vscrHoajVRa1Yk19XWdwA</User:average_stars>
+    <User:type>user</User:type>
+    <User:yelping_since>2010-09</User:yelping_since>
+    <User:friends>["8wK7_qZ18mokBxw5zdSo9w","AdxHwIZAOhY4zNXspg6ITw","IV_LPLdaXrv4YCEXg12Aig","GrYE945votxByiK9dk9GDw"]</User:friends>
+    <User:review_count>0vscrHoajVRa1Yk19XWdwA</User:review_count>
+    <User:fans>0vscrHoajVRa1Yk19XWdwA</User:fans>
+    <User:user_id>0vscrHoajVRa1Yk19XWdwA</User:user_id>
+    <User:compliments>{"photos":1,"cool":2,"more":2,"funny":1,"writer":1}</User:compliments>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >11</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >20</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >5</Votes:funny>
+    </User:votes>
+    <User:name>Jasmine</User:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#5Xh4Qc3rxhAQ_NcNtxLssQ">
+    <User:average_stars>5Xh4Qc3rxhAQ_NcNtxLssQ</User:average_stars>
+    <User:friends>[]</User:friends>
+    <User:user_id>5Xh4Qc3rxhAQ_NcNtxLssQ</User:user_id>
+    <User:yelping_since>2012-01</User:yelping_since>
+    <User:compliments>{}</User:compliments>
+    <User:name>Harley</User:name>
+    <User:fans>5Xh4Qc3rxhAQ_NcNtxLssQ</User:fans>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >1</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:funny>
+    </User:votes>
+    <User:review_count>5Xh4Qc3rxhAQ_NcNtxLssQ</User:review_count>
+    <User:type>user</User:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#qtrmBGNqCvupHMHL_bKFgQ">
+    <User:user_id>qtrmBGNqCvupHMHL_bKFgQ</User:user_id>
+    <User:yelping_since>2012-02</User:yelping_since>
+    <User:fans>qtrmBGNqCvupHMHL_bKFgQ</User:fans>
+    <User:average_stars>qtrmBGNqCvupHMHL_bKFgQ</User:average_stars>
+    <User:friends>[]</User:friends>
+    <User:name>Lee</User:name>
+    <User:compliments>{}</User:compliments>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >5</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >1</Votes:funny>
+    </User:votes>
+    <User:type>user</User:type>
+    <User:review_count>qtrmBGNqCvupHMHL_bKFgQ</User:review_count>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#MWhR9LvOdRbqtu1I_DRFBg">
+    <User:yelping_since>2011-12</User:yelping_since>
+    <User:type>user</User:type>
+    <User:friends>["8Y2EN4XNNhnwssuPb31sJg","A1jPleJ99kXZ3t9wQ3np-g","resYiOoGkQg6q0qgtj_1GA","skl1OnkjMqD4GdFpVhU88Q","3Ss2aqrSoO7WbxE2GcLlfQ","SGy3JDbhtzDTTBO7unqQxg","Aez4Y1F0m2ucIfmfzPZfjw","fT4jx_9cRWyKFROxv_MIrw","QmZOAYM7ITbTdkTn6ay_ag","_l18_te9ifeArhNdCfFy1g","H6ovBilqI3cSunx27XbPUg","A8pmiEiiWjXci_oeigLNZQ","fdSfg45S-P-FcVF-VIUOew"]</User:friends>
+    <User:user_id>MWhR9LvOdRbqtu1I_DRFBg</User:user_id>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:funny>
+    </User:votes>
+    <User:name>Matthew</User:name>
+    <User:average_stars>MWhR9LvOdRbqtu1I_DRFBg</User:average_stars>
+    <User:review_count>MWhR9LvOdRbqtu1I_DRFBg</User:review_count>
+    <User:compliments>{}</User:compliments>
+    <User:fans>MWhR9LvOdRbqtu1I_DRFBg</User:fans>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#Yap-E13OdirLr9w_X6mcCA">
+    <User:review_count>Yap-E13OdirLr9w_X6mcCA</User:review_count>
+    <User:average_stars>Yap-E13OdirLr9w_X6mcCA</User:average_stars>
+    <User:type>user</User:type>
+    <User:fans>Yap-E13OdirLr9w_X6mcCA</User:fans>
+    <User:user_id>Yap-E13OdirLr9w_X6mcCA</User:user_id>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >39</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >72</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >33</Votes:funny>
+    </User:votes>
+    <User:compliments>{"cool":3,"photos":1,"funny":1,"plain":2,"writer":1}</User:compliments>
+    <User:yelping_since>2008-06</User:yelping_since>
+    <User:friends>["0DuUBFaOLSehYIV8R68G-A","RGKsjhg8cllRfVs-3PWT5A","2xl5reFNGc1w8qUmc6ZPxQ"]</User:friends>
+    <User:name>Jody</User:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://indiana.edu/svellank/Users#uygg55wWaEP0xTR7dHDg-g">
+    <User:fans>uygg55wWaEP0xTR7dHDg-g</User:fans>
+    <User:average_stars>uygg55wWaEP0xTR7dHDg-g</User:average_stars>
+    <User:votes rdf:parseType="Resource">
+      <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:cool>
+      <Votes:useful rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:useful>
+      <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+      >0</Votes:funny>
+    </User:votes>
+    <User:yelping_since>2014-05</User:yelping_since>
+    <User:review_count>uygg55wWaEP0xTR7dHDg-g</User:review_count>
+    <User:type>user</User:type>
+    <User:compliments>{}</User:compliments>
+    <User:user_id>uygg55wWaEP0xTR7dHDg-g</User:user_id>
+    <User:friends>[]</User:friends>
+    <User:name>Keith</User:name>
+  </rdf:Description>
+</rdf:RDF>
