@@ -158,7 +158,7 @@ public class App extends Object
     business get_business(@RequestParam(value = "id") String id) throws UnsupportedEncodingException 
     {
     	business final_result = null;
-    	String inputFileName = "bussiness.rdf";
+    	String inputFileName = "yelp_academic_dataset_business.rdf";
 		// Create an empty in-memory model 
 		Model model = ModelFactory.createDefaultModel();
         InputStream in = FileManager.get().open(inputFileName);
