@@ -14,6 +14,7 @@ import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.query.* ;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -984,7 +985,7 @@ public class App extends Object
  	
  	try 
  	{
-		for (String line : Files.readAllLines(Paths.get(inputFileName))) 
+		for (String line : Files.readAllLines(Paths.get(inputFileName), Charset.defaultCharset()))  
 		{
 			if(line.toLowerCase().contains(java.net.URLDecoder.decode(city.toLowerCase(), "UTF-8")))
 				final_result.add(line);
@@ -1007,7 +1008,7 @@ public class App extends Object
  	
  	try 
  	{
-		for (String line : Files.readAllLines(Paths.get(inputFileName))) 
+		for (String line : Files.readAllLines(Paths.get(inputFileName), Charset.defaultCharset())) 
 		{
 			if(line.toLowerCase().contains(java.net.URLDecoder.decode(category.toLowerCase(), "UTF-8")))
 				final_result.add(line);
