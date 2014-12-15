@@ -54,7 +54,7 @@ public class App extends Object
     {
     	Item_businesses item_results = new Item_businesses();
     	ArrayList<business> final_result = new ArrayList<business>();
-    	String inputFileName = "bussiness.rdf";
+    	String inputFileName = "yelp_academic_dataset_business.rdf";
 		// Create an empty in-memory model 
 		Model model = ModelFactory.createDefaultModel();
         InputStream in = FileManager.get().open(inputFileName);
