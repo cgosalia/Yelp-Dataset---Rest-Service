@@ -106,7 +106,7 @@ public class App extends Object
 			temp.setReview_count(next.getLiteral("review_count").getString());
 			temp.setCity(next.getLiteral("city").getString());
 			temp.setId(next.getLiteral("id").getString());
-			temp.setName(next.getLiteral("name").getString());
+			temp.setLabel(next.getLiteral("name").getString());
 			temp.setLanglat(next.getLiteral("longitude").getString()+","+next.getLiteral("latitude").getString());			
 			String cat = next.getLiteral("categories").getString();
 			ArrayList<String> t = new ArrayList<String>();
@@ -209,7 +209,7 @@ public class App extends Object
 				final_result.setReview_count(next.getLiteral("review_count").getString());
 				final_result.setCity(next.getLiteral("city").getString());
 				final_result.setId(id);
-				final_result.setName(next.getLiteral("name").getString());
+				final_result.setLabel(next.getLiteral("name").getString());
 				final_result.setLanglat(next.getLiteral("longitude").getString()+","+next.getLiteral("latitude").getString());
 				String cat = next.getLiteral("categories").getString();
 				ArrayList<String> t = new ArrayList<String>();

@@ -9,13 +9,8 @@ import org.json.JSONObject;
 
 //import java.util.List;
 
-public class business{
-	public void setAttibute_categories(JSONObject attibute_categories) {
-		this.attibute_categories = attibute_categories;
-	}
-	public JSONObject getAttibute_categories() {
-		return attibute_categories;
-	}
+public class business
+{
 	//?stars ?g ?id ?type ?name ?review_count ?city ?address ?longitude 
 	//?latitude ?monday ?tuesday ?wednesday ?thursday ?friday ?saturday ?sunday
 	private String stars;
@@ -23,11 +18,17 @@ public class business{
 	public void setCategories(ArrayList<String> categories) {
 		this.categories = categories;
 	}
+	public String getLabel() {
+		return label;
+	}
+	public void setLabel(String label) {
+		this.label = label;
+	}
 	private String id;
 	public ArrayList<String> getCategories() {
 		return categories;
 	}
-	private String name;
+	private String label;
 	private String review_count;
 	private String city;
 	private String address;
@@ -43,7 +44,7 @@ public class business{
 	private String attributes;
 	
 	
-	private JSONObject attibute_categories;
+//	private JSONObject attibute_categories;
 
 	
 	public void setAttributes(String attributes) {
@@ -63,12 +64,6 @@ public class business{
 	}
 	public void setId(String id) {
 		this.id = id;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
 	}
 	public String getReview_count() {
 		return review_count;
