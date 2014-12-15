@@ -346,7 +346,7 @@ public class App extends Object
 			}
 			qe1.close();
 			//getting the business name
-	    	String inputFileName2 = "bussiness.rdf"; 
+	    	String inputFileName2 = "yelp_academic_dataset_business.rdf"; 
 			Model model2 = ModelFactory.createDefaultModel();
 	        InputStream in2 = FileManager.get().open(inputFileName2);
 	        if (in2 == null) {
@@ -471,7 +471,7 @@ public class App extends Object
 			
 
 			//getting the business name
-	    	String inputFileName2 = "bussiness.rdf"; 
+	    	String inputFileName2 = "yelp_academic_dataset_business.rdf"; 
 			Model model2 = ModelFactory.createDefaultModel();
 	        InputStream in2 = FileManager.get().open(inputFileName2);
 	        if (in2 == null) {
@@ -601,7 +601,7 @@ public class App extends Object
 			
 
 			//getting the business name
-	    	String inputFileName2 = "bussiness.rdf"; 
+	    	String inputFileName2 = "yelp_academic_dataset_business.rdf"; 
 			Model model2 = ModelFactory.createDefaultModel();
 	        InputStream in2 = FileManager.get().open(inputFileName2);
 	        if (in2 == null) {
@@ -738,7 +738,7 @@ public class App extends Object
 			
 
 			//getting the business name
-	    	String inputFileName2 = "bussiness.rdf"; 
+	    	String inputFileName2 = "yelp_academic_dataset_business.rdf"; 
 			Model model2 = ModelFactory.createDefaultModel();
 	        InputStream in2 = FileManager.get().open(inputFileName2);
 	        if (in2 == null) {
