@@ -976,9 +976,9 @@ public class App extends Object
  
  
  
- @RequestMapping(value = "/cities", params = { "city"})
+ @RequestMapping(value = "/cities", params = { "term"})
  @ResponseBody
- ArrayList<String> autocheck_cities(@RequestParam(value = "city") String city) throws UnsupportedEncodingException {
+ ArrayList<String> autocheck_cities(@RequestParam(value = "term") String city) throws UnsupportedEncodingException {
  	ArrayList<String> final_result = new ArrayList<String>();
  	String inputFileName = "cities.txt";
 
@@ -999,9 +999,9 @@ public class App extends Object
  }
  
  
- @RequestMapping(value = "/categories", params = { "category"})
+ @RequestMapping(value = "/categories", params = { "term"})
  @ResponseBody
- ArrayList<String> autocheck_category(@RequestParam(value = "category") String category) throws UnsupportedEncodingException {
+ ArrayList<String> autocheck_category(@RequestParam(value = "term") String category) throws UnsupportedEncodingException {
  	ArrayList<String> final_result = new ArrayList<String>();
  	String inputFileName = "categories.txt";
 
