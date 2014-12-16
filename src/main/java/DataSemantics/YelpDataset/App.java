@@ -91,7 +91,7 @@ public class App extends Object
 			"		OPTIONAL { ?time business_hours:sunday ?sunday } . " +
 			"		?x business:categories ?categories . " +				
 			"		FILTER regex(?categories,\""+ java.net.URLDecoder.decode(category, "UTF-8")+ "\",\"i\") . " +
-			"      } LIMIT 50";
+			"      } LIMIT 10";
 		Query query = QueryFactory.create(queryString);
 		// Execute the query and obtain results
 		QueryExecution qe = QueryExecutionFactory.create(query, model);
@@ -128,9 +128,9 @@ public class App extends Object
 			}			
 			temp.setCategories(t);
 			temp.setAddress(next.getLiteral("address").getString());
-			temp.setAttributes(next.getLiteral("attributes").getString());			
-			if(next.getLiteral("monday") != null && next.getLiteral("monday").getString() != "")
-			{
+//			temp.s	etAttributes(next.getLiteral("attributes").getString());			
+//			if(next.getLiteral("monday") != null && next.getLiteral("monday").getString() != "")
+//			{
 				if(next.getLiteral("monday") != null)
 				temp.setMonday(next.getLiteral("monday").getString());
 				if(next.getLiteral("tuesday") != null)
@@ -145,7 +145,7 @@ public class App extends Object
 				temp.setSaturday(next.getLiteral("saturday").getString());
 				if(next.getLiteral("sunday") != null)
 				temp.setSunday(next.getLiteral("sunday").getString());
-			} 
+//			} 
 			final_result.add(temp);			
 		}		
 		qe.close();
@@ -204,7 +204,7 @@ public class App extends Object
 			try
 			{
 				final_result = new business();
-				System.out.println("we have rsi;ts");
+//				System.out.println("we have rsi;ts");
 				final_result.setStars(next.getLiteral("stars").getString());
 				final_result.setReview_count(next.getLiteral("review_count").getString());
 				final_result.setCity(next.getLiteral("city").getString());
@@ -252,10 +252,11 @@ public class App extends Object
 			}
 			catch(Exception ex)
 			{
-				
+//				System.out.println("Exception");
 			}
 		}
 		qe.close();
+//		System.out.println("Here I am ");
         return final_result;
     }
     
@@ -322,7 +323,7 @@ public class App extends Object
 	            throw new IllegalArgumentException( "File: " + inputFileName_users + " not found");
 	        }
 	        model1.read( in1, "" );
-	        System.out.println("User Id: " + temp.getUser_id());
+//	        System.out.println("User Id: " + temp.getUser_id());
 			String queryString1 = 
 					"PREFIX Compliments:<http://indiana.edu/svellank/Users/Compliments#> " +
 					"PREFIX user:<http://indiana.edu/svellank/Users#> "+
@@ -379,6 +380,7 @@ public class App extends Object
 			qe2.close();	
 			final_result.add(temp);			
 		}
+//		System.out.println("Here I die");
 		qe.close();
         return final_result;
     }
@@ -575,7 +577,7 @@ public class App extends Object
 	            throw new IllegalArgumentException( "File: " + inputFileName_users + " not found");
 	        }
 	        model1.read( in1, "" );
-	        System.out.println("User Id: " + temp.getUser_id());
+//	        System.out.println("User Id: " + temp.getUser_id());
 			String queryString1 = 
 					"PREFIX Compliments:<http://indiana.edu/svellank/Users/Compliments#> " +
 					"PREFIX user:<http://indiana.edu/svellank/Users#> "+

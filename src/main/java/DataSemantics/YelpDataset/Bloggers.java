@@ -7,7 +7,7 @@ import java.io.*;
 public class Bloggers extends Object {
 	
 		//static final String inputFileName = "bloggers.rdf";
-		static final String inputFileName = "yelp_academic_dataset_business.rdf";
+		static final String inputFileName = "reviews.rdf";
         
       	public static void main (String args[]) {
 
@@ -20,34 +20,23 @@ public class Bloggers extends Object {
         model.read( in, "" );
 		String queryString = 
 				"PREFIX business:<http://indiana.edu/svellank#> " +
-						"PREFIX business_hours:<http://indiana.edu/svellank/hoursOfOperation#> "+
-						"PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
-					    "PREFIX location:<http://indiana.edu/svellank/location#> " +
-						"SELECT ?x ?stars ?categories ?id ?type ?name ?review_count ?city ?address ?longitude ?latitude ?attributes ?monday ?tuesday ?wednesday ?thursday ?friday ?saturday ?sunday " + 
-						"WHERE {" +
-						"		?x business:name ?name . " +
-						"		?x business:type ?type . " +
-						"		?x business:stars ?stars . " +
-						"		?x business:reviewcount	 ?review_count . " +
-						"		?x business:id ?id . " +
-						"		?x business:city \"Phoenix\" . " +
-						"		?x business:city ?city . " +
-						"		?x business:address ?address . " +
-						"		?x location:coordinates ?location . " +
-						"		?location location:longitude ?longitude . " +
-						"		?location location:latitude ?latitude . " +
-						"		?x business:attributes ?attributes . " +
-						"		OPTIONAL { ?x business_hours:weekly ?time } . " +
-						"		OPTIONAL { ?time business_hours:monday ?monday } . " +
-						"		OPTIONAL { ?time business_hours:tuesday ?tuesday } . " +
-						"		OPTIONAL { ?time business_hours:wednesday ?wednesday } . " +
-						"		OPTIONAL { ?time business_hours:thursday ?thursday } . " +
-						"		OPTIONAL { ?time business_hours:friday ?friday } . " +
-						"		OPTIONAL { ?time business_hours:saturday ?saturday } . " +
-						"		OPTIONAL { ?time business_hours:sunday ?sunday } . " +
-						"		?x business:categories ?categories . " +				
-						"		FILTER regex(?categories,\"Mexican\",\"i\") . " +
-						"      } LIMIT 50";
+				"PREFIX user:<http://indiana.edu/svellank/users/> "+
+				"PREFIX review:<http://indiana.edu/svellank/reviews/> "+
+				"PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+				"SELECT ?x ?stars ?review_text ?review_id ?review_date " + //?user_id ?business_id ?review_type ?votes_cool ?votes_useful ?votes_funny " + 
+				"WHERE {" +
+				"		?x review:stars ?stars . " +
+				"		?x review:review_text ?review_text . " +
+				"		?x review:review_id ?review_id . "  +
+				"		?x review:review_date ?review_date . " +
+				"		?x user:user_id ?user_id . " +
+			/*	"		?x business:id \"dnCqXvdWhaOZNa0gz\" . " +*/
+				"		?x review:type ?review_type . " +
+				"		?x review:votes ?votes . " +
+				/*"		OPTIONAL { ?votes review:cool ?votes_cool } . " +
+				"		OPTIONAL { ?votes review:funny ?votes_funny } . " +
+				"		OPTIONAL { ?votes review:useful ?votes_useful } . " +*/
+				"      } LIMIT 10";
 	
 		Query query = QueryFactory.create(queryString);
 

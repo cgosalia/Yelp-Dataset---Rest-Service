@@ -25,7 +25,7 @@
       <Votes:funny rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
       >5</Votes:funny>
     </User:votes>
-    <User:user_id>RdufJ-Wl0abkMOlE2WNaLw</User:user_id>
+    <User:user_id>hOoBWkbjQGvyau8_MO5tSQ</User:user_id>
     <User:votes rdf:parseType="Resource">
       <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
       >5</Votes:cool>
@@ -99,7 +99,7 @@
       >1</Votes:funny>
     </User:votes>
     <User:friends>[]</User:friends>
-    <User:user_id>Ueh1SrOa8KiR4yeZGl1bpQ</User:user_id>
+    <User:user_id>cecptQzpSoRTZK4YuE56rQ</User:user_id>
     <User:review_count>14</User:review_count>
     <User:name>Ben</User:name>
     <User:votes rdf:parseType="Resource">
@@ -218,7 +218,7 @@
       >0</Votes:funny>
     </User:votes>
     <User:fans>1</User:fans>
-    <User:user_id>rgcKFRp4WlQ-Wju-jN6e-A</User:user_id>
+    <User:user_id>wb7P7e3q11TZLxd9QjEmxA</User:user_id>
     <User:compliments>{}</User:compliments>
     <User:yelping_since>2009-09</User:yelping_since>
     <User:votes rdf:parseType="Resource">
@@ -12706,7 +12706,7 @@
       >33</Votes:funny>
     </User:votes>
     <User:fans>2</User:fans>
-    <User:user_id>yds3XjCZOV9Ki1P9Fjug2A</User:user_id>
+    <User:user_id>nmDcdE8LvcJ0vFy9jmctOA</User:user_id>
     <User:name>Ryan</User:name>
     <User:votes rdf:parseType="Resource">
       <Votes:cool rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
